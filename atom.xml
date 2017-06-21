@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://poyhsiao.github.io/"/>
-  <updated>2017-06-20T14:45:02.000Z</updated>
+  <updated>2017-06-21T06:13:05.000Z</updated>
   <id>https://poyhsiao.github.io/</id>
   
   <author>
@@ -20,69 +20,24 @@
     <link href="https://poyhsiao.github.io/2017/06/20/2017-06-20-1/"/>
     <id>https://poyhsiao.github.io/2017/06/20/2017-06-20-1/</id>
     <published>2017-06-20T10:08:03.000Z</published>
-    <updated>2017-06-20T14:45:02.000Z</updated>
+    <updated>2017-06-21T06:13:05.000Z</updated>
     
-    <content type="html"><![CDATA[<p>應該大家都知道 <a href="https://hexo.io" title="hexo" target="_blank" rel="external">hexo</a> 了吧，倒也不是什麼新的、了不起的新應用技術了，總之，我也是這幾天才開始玩</p>
-<p>其中的原因不外有以下五點：</p>
-<ul>
-<li>是該開始寫點東西了，每次都會忘記紀錄些項目，就連 <a href="https://evernote.com" title="evernote" target="_blank" rel="external">evernote</a> 上的東西也越來越少翻出來看了</li>
-<li>使用 <strong><em>Markdown</em></strong> 語言寫東西，是感覺更像是在寫簡單的文字，純文字的寫法，跟讓人有感</li>
-<li>越來越懶得去架設一些服務，雖然一開始概念都是練習技術，但是很多時候都半途而廢，或是機器調整後，就沒有再也不想維護了</li>
-<li><a href="http://zh.mweb.im" title="MWeb" target="_blank" rel="external">MWeb</a> 真的超好用的，又美觀、又方便、又支援各種 blog 和圖床的功能，有在寫 <strong><em>Markdown</em></strong> 的夥伴們，一定要花點錢買套正版的來玩玩喔 <code>這也是為什麼用 linux / windows 很不舒服的原因之一</code></li>
-<li>總是要留點東西下來，FB / instagram 或是其他的 social network 平台都很好，但是說要真的留下、查看東西都很困難，除了可以彌補一下空虛心靈討拍拍以外，就沒有什麼太大的需求了… <code>也是時間該戒 FB 的時候了</code></li>
-</ul>
-<p>好啦，言歸正傳，這次到底有什麼收穫，先不說要怎麼安裝 <a href="https://hexo.io" title="hexo" target="_blank" rel="external">hexo</a> 或是有什麼特別的外掛了</p>
-<p>這次的學習來源是因為一個佈景主題啟發的，這個佈景主題就是 <a href="https://github.com/iTimeTraveler/hexo-theme-hiero" title="hexo theme - hiero" target="_blank" rel="external">hiero</a>，挑選他的原因，也不過就是看起來很清爽，感覺也挺符合一般檢視的 fu 啦</p>
-<p><img src="http://i.imgur.com/BEj0Ia7.png" alt="Hiero theme"><br><em>看起來挺清爽的吧</em></p>
-<p>不過，真的發現趣味的是，在設定 <code>_config.yml</code> 時發現的…</p>
-<p>一下找到了對岸的許多網站分析、統計相關的服務，重點是，其實作者都整理分析的挺好的…</p>
-<h2 id="項目"><a href="#項目" class="headerlink" title="項目"></a>項目</h2><h3 id="Social-network-links"><a href="#Social-network-links" class="headerlink" title="Social network links"></a>Social network links</h3><ul>
-<li><a href="https://github.com" title="github" target="_blank" rel="external">Github</a></li>
-<li><a href="http://weibo.com" title="新浪微博" target="_blank" rel="external">Weibo</a></li>
-<li><a href="https://twitter.com" title="Twitter" target="_blank" rel="external">Twitter</a></li>
-<li><a href="https://facebook.com" title="Facebook - FB" target="_blank" rel="external">Facebook</a></li>
-<li><a href="https://plus.google.com" title="Google plus - G+" target="_blank" rel="external">G+</a></li>
-<li><a href="https://www.instagram.com" title="Instagram - IG" target="_blank" rel="external">Instagram</a></li>
-<li><a href="https://www.pinterest.com" title="Pinterest" target="_blank" rel="external">Pinterest</a></li>
-<li><a href="http://flickr.com" target="_blank" rel="external">Flickr</a></li>
-<li>聯絡 Email</li>
-</ul>
-<p><em>這些都可以設為自己相關的 social network links，當然，你要自己再另外加也可以</em></p>
-<h3 id="Discussion-Guest-book"><a href="#Discussion-Guest-book" class="headerlink" title="Discussion (Guest book)"></a>Discussion (Guest book)</h3><ul>
-<li><a href="https://gentie.163.com/" target="_blank" rel="external">网易云跟贴</a></li>
-<li><a href="http://duoshuo.com" title="多說，好像已經失效了" target="_blank" rel="external">多說</a> <code>好像已經失效了</code></li>
-<li><a href="https://disqus.com" title="Disqus" target="_blank" rel="external">Disqus</a></li>
-<li><a href="https://livere.com" title="livere - 來必力" target="_blank" rel="external">livere</a> <code>中文翻譯為來必力，似乎是個韓國來的服務</code></li>
-<li><a href="http://www.uyan.cc" title="友言：一个专业的网站社交评论系统" target="_blank" rel="external">uyan</a></li>
-<li><a href="http://www.wumii.org" title="匿名的聊天群組" target="_blank" rel="external">wumii</a></li>
-</ul>
-<h3 id="Webmaster-站長工具"><a href="#Webmaster-站長工具" class="headerlink" title="Webmaster (站長工具)"></a>Webmaster (站長工具)</h3><ul>
-<li><a href="https://www.google.com/webmasters/" target="_blank" rel="external">Google webmaster</a></li>
-<li><a href="http://zhanzhang.baidu.com" target="_blank" rel="external">百度 站長平台</a></li>
-<li><a href="http://zhanzhang.so.com" target="_blank" rel="external">360 站長平台</a></li>
-</ul>
-<h3 id="網站分析工具"><a href="#網站分析工具" class="headerlink" title="網站分析工具"></a>網站分析工具</h3><ul>
-<li><a href="https://www.google.com/intl/zh-TW/analytics/features/index.html" target="_blank" rel="external">Google Analytics</a> <code>GA</code></li>
-<li><a href="http://get.gaug.es" target="_blank" rel="external">Gauges</a> <code>七天免費試用</code></li>
-<li><a href="https://tongji.baidu.com/web/welcome/login" target="_blank" rel="external">百度统计</a></li>
-<li><a href="http://ta.qq.com" target="_blank" rel="external">腾讯分析</a></li>
-<li><a href="http://busuanzi.ibruce.info" target="_blank" rel="external">不蒜子</a> <code>極簡網頁計數器，免註冊</code></li>
-</ul>
-<h3 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h3><ul>
-<li><a href="http://www.cnzz.com/o_index.php" target="_blank" rel="external">CNZZ</a> <code>數據專家，很優秀的網站瀏覽分析平台</code></li>
-</ul>
-<h2 id="結論"><a href="#結論" class="headerlink" title="結論"></a>結論</h2><p>現在網路這麼發達，想要擁有一些網站統計、觀察的工具非常多，不過，如果想要進軍大陸市場是，很多項目無法使用，也就是，其實都得使用大陸市場的工具，以目前看來，這幾個項目，是進軍大陸互聯網 (尤其是傳統網站) 來說，最基本的幾個項目</p>
-<p>別說的好像是在台灣的 SEO 做的多好，網站分析的多透徹，甚至社群行銷的多優秀，如果沒有了 Google, FB 這些工具，其實到了中國大陸，可能都無法負荷當地市場所需</p>
-<p>再次重申一次，根據台灣目前所剩無幾的資源以及優勢，對於大陸還是有這麼一點點的小小利多，如果沒有好好把握住最後的一點點機會，那真的未來什麼都沒了，無論是技術以及文化，都必須要更加緊密合作才可以走出困境！！</p>
-]]></content>
+    <content type="html"><![CDATA[<p>應該大家都知道 <a href="https://hexo.io" title="hexo" target="_blank" rel="external">hexo</a> 了吧，倒也不是什麼新的、了不起的新應用技術了，總之，我也是這幾天才開始玩</p><p>其中的原因不外有以下五點：</p><ul><li>是該開始寫點東西了，每次都會忘記紀錄些項目，就連 <a href="https://evernote.com" title="evernote" target="_blank" rel="external">evernote</a> 上的東西也越來越少翻出來看了</li><li>使用 <strong><em>Markdown</em></strong> 語言寫東西，是感覺更像是在寫簡單的文字，純文字的寫法，跟讓人有感</li><li>越來越懶得去架設一些服務，雖然一開始概念都是練習技術，但是很多時候都半途而廢，或是機器調整後，就沒有再也不想維護了</li><li><a href="http://zh.mweb.im" title="MWeb" target="_blank" rel="external">MWeb</a> 真的超好用的，又美觀、又方便、又支援各種 blog 和圖床的功能，有在寫 <strong><em>Markdown</em></strong> 的夥伴們，一定要花點錢買套正版的來玩玩喔 <code>這也是為什麼用 linux / windows 很不舒服的原因之一</code></li><li>總是要留點東西下來，FB / instagram 或是其他的 social network 平台都很好，但是說要真的留下、查看東西都很困難，除了可以彌補一下空虛心靈討拍拍以外，就沒有什麼太大的需求了… <code>也是時間該戒 FB 的時候了</code></li></ul><p>好啦，言歸正傳，這次到底有什麼收穫，先不說要怎麼安裝 <a href="https://hexo.io" title="hexo" target="_blank" rel="external">hexo</a> 或是有什麼特別的外掛了</p><p>這次的學習來源是因為一個佈景主題啟發的，這個佈景主題就是 <a href="https://github.com/iTimeTraveler/hexo-theme-hiero" title="hexo theme - hiero" target="_blank" rel="external">hiero</a>，挑選他的原因，也不過就是看起來很清爽，感覺也挺符合一般檢視的 fu 啦</p><p><img src="http://i.imgur.com/BEj0Ia7.png" alt="Hiero theme"><br><em>看起來挺清爽的吧</em></p><p>不過，真的發現趣味的是，在設定 <code>_config.yml</code> 時發現的…</p><p>一下找到了對岸的許多網站分析、統計相關的服務，重點是，其實作者都整理分析的挺好的…</p><h2 id="項目"><a href="#項目" class="headerlink" title="項目"></a>項目</h2><h3 id="Social-network-links"><a href="#Social-network-links" class="headerlink" title="Social network links"></a>Social network links</h3><ul><li><a href="https://github.com" title="github" target="_blank" rel="external">Github</a></li><li><a href="http://weibo.com" title="新浪微博" target="_blank" rel="external">Weibo</a></li><li><a href="https://twitter.com" title="Twitter" target="_blank" rel="external">Twitter</a></li><li><a href="https://facebook.com" title="Facebook - FB" target="_blank" rel="external">Facebook</a></li><li><a href="https://plus.google.com" title="Google plus - G+" target="_blank" rel="external">G+</a></li><li><a href="https://www.instagram.com" title="Instagram - IG" target="_blank" rel="external">Instagram</a></li><li><a href="https://www.pinterest.com" title="Pinterest" target="_blank" rel="external">Pinterest</a></li><li><a href="http://flickr.com" target="_blank" rel="external">Flickr</a></li><li>聯絡 Email</li></ul><p><em>這些都可以設為自己相關的 social network links，當然，你要自己再另外加也可以</em></p><h3 id="Discussion-Guest-book"><a href="#Discussion-Guest-book" class="headerlink" title="Discussion (Guest book)"></a>Discussion (Guest book)</h3><ul><li><a href="https://gentie.163.com/" target="_blank" rel="external">网易云跟贴</a></li><li><a href="http://duoshuo.com" title="多說，好像已經失效了" target="_blank" rel="external">多說</a> <code>好像已經失效了</code></li><li><a href="https://disqus.com" title="Disqus" target="_blank" rel="external">Disqus</a></li><li><a href="https://livere.com" title="livere - 來必力" target="_blank" rel="external">livere</a> <code>中文翻譯為來必力，似乎是個韓國來的服務</code></li><li><a href="http://www.uyan.cc" title="友言：一个专业的网站社交评论系统" target="_blank" rel="external">uyan</a></li><li><a href="http://www.wumii.org" title="匿名的聊天群組" target="_blank" rel="external">wumii</a></li></ul><h3 id="Webmaster-站長工具"><a href="#Webmaster-站長工具" class="headerlink" title="Webmaster (站長工具)"></a>Webmaster (站長工具)</h3><ul><li><a href="https://www.google.com/webmasters/" target="_blank" rel="external">Google webmaster</a></li><li><a href="http://zhanzhang.baidu.com" target="_blank" rel="external">百度 站長平台</a></li><li><a href="http://zhanzhang.so.com" target="_blank" rel="external">360 站長平台</a></li></ul><h3 id="網站分析工具"><a href="#網站分析工具" class="headerlink" title="網站分析工具"></a>網站分析工具</h3><ul><li><a href="https://www.google.com/intl/zh-TW/analytics/features/index.html" target="_blank" rel="external">Google Analytics</a> <code>GA</code></li><li><a href="http://get.gaug.es" target="_blank" rel="external">Gauges</a> <code>七天免費試用</code></li><li><a href="https://tongji.baidu.com/web/welcome/login" target="_blank" rel="external">百度统计</a></li><li><a href="http://ta.qq.com" target="_blank" rel="external">腾讯分析</a></li><li><a href="http://busuanzi.ibruce.info" target="_blank" rel="external">不蒜子</a> <code>極簡網頁計數器，免註冊</code></li></ul><h3 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h3><ul><li><a href="http://www.cnzz.com/o_index.php" target="_blank" rel="external">CNZZ</a> <code>數據專家，很優秀的網站瀏覽分析平台</code></li></ul><h2 id="結論"><a href="#結論" class="headerlink" title="結論"></a>結論</h2><p>現在網路這麼發達，想要擁有一些網站統計、觀察的工具非常多，不過，如果想要進軍大陸市場是，很多項目無法使用，也就是，其實都得使用大陸市場的工具，以目前看來，這幾個項目，是進軍大陸互聯網 (尤其是傳統網站) 來說，最基本的幾個項目</p><p>別說的好像是在台灣的 SEO 做的多好，網站分析的多透徹，甚至社群行銷的多優秀，如果沒有了 Google, FB 這些工具，其實到了中國大陸，可能都無法負荷當地市場所需</p><p>再次重申一次，根據台灣目前所剩無幾的資源以及優勢，對於大陸還是有這麼一點點的小小利多，如果沒有好好把握住最後的一點點機會，那真的未來什麼都沒了，無論是技術以及文化，都必須要更加緊密合作才可以走出困境！！</p>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;應該大家都知道 &lt;a href=&quot;https://hexo.io&quot; title=&quot;hexo&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;hexo&lt;/a&gt; 了吧，倒也不是什麼新的、了不起的新應用技術了，總之，我也是這幾天才開始玩&lt;/p&gt;
-&lt;p&gt;其中的原因不
+      &lt;p&gt;應該大家都知道 &lt;a href=&quot;https://hexo.io&quot; title=&quot;hexo&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;hexo&lt;/a&gt; 了吧，倒也不是什麼新的、了不起的新應用技術了，總之，我也是這幾天才開始玩&lt;/p&gt;&lt;p&gt;其中的原因不外
     
     </summary>
     
+      <category term="life" scheme="https://poyhsiao.github.io/categories/life/"/>
+    
+    
+      <category term="hexo" scheme="https://poyhsiao.github.io/tags/hexo/"/>
+    
+      <category term="markdown" scheme="https://poyhsiao.github.io/tags/markdown/"/>
+    
+      <category term="mweb" scheme="https://poyhsiao.github.io/tags/mweb/"/>
     
   </entry>
   
@@ -93,19 +48,7 @@
     <published>2017-06-20T04:02:10.000Z</published>
     <updated>2017-06-20T05:23:25.000Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="很久沒有用-windows-了"><a href="#很久沒有用-windows-了" class="headerlink" title="很久沒有用 windows 了"></a>很久沒有用 windows 了</h1><p>也不知道到底有多久沒有用 windows，大約是 win7 之後，就不熟悉了</p>
-<p>最近拿到一台 NB，原本想說安裝 mint linux 來寫程式就好了，不過發現，相對於 Mac OSX 來說，其實 Linux 沒什麼質量比較高的軟件。例如，想要有個好用的 Markdown editor，就沒有像是 Mac 的 MWeb 合理與好用…另外，習慣使用的拼音輸入（繁體），也不像是 Mac 本身就已經內建了 <code>話說，好像 windows 也沒有內建，不過至少可以使用</code> <a href="https://www.google.com/intl/zh-CN/ime/pinyin/features.html" target="_blank" rel="external">google 拼音輸入法</a></p>
-<p>所以這兩天也就索性把 linux 重新安裝回 windows 吧，沒想到很快就出現另人懷念的畫面了</p>
-<p><img src="http://i.imgur.com/ItjSCTM.jpg" alt="3"><br>好啦，我也完全不想看懂這是什麼</p>
-<p>我想最麻煩的應該會是以下幾個部分了</p>
-<ul>
-<li>安裝 driver <code>有電腦、有 windows 10 就很迷人了，其他不強求</code></li>
-<li>windows update <code>無盡的等待</code></li>
-<li>鍵盤位置 <code>這可能是短期之內，無論是使用任何作業系統，只要遇到鍵盤就會發生不習慣的問題</code></li>
-<li>其他快速鍵習慣操作與設定 </li>
-</ul>
-<p>anyway，祝我好運吧，真不知道要適應多久了！！</p>
-]]></content>
+    <content type="html"><![CDATA[<h1 id="很久沒有用-windows-了"><a href="#很久沒有用-windows-了" class="headerlink" title="很久沒有用 windows 了"></a>很久沒有用 windows 了</h1><p>也不知道到底有多久沒有用 windows，大約是 win7 之後，就不熟悉了</p><p>最近拿到一台 NB，原本想說安裝 mint linux 來寫程式就好了，不過發現，相對於 Mac OSX 來說，其實 Linux 沒什麼質量比較高的軟件。例如，想要有個好用的 Markdown editor，就沒有像是 Mac 的 MWeb 合理與好用…另外，習慣使用的拼音輸入（繁體），也不像是 Mac 本身就已經內建了 <code>話說，好像 windows 也沒有內建，不過至少可以使用</code> <a href="https://www.google.com/intl/zh-CN/ime/pinyin/features.html" target="_blank" rel="external">google 拼音輸入法</a></p><p>所以這兩天也就索性把 linux 重新安裝回 windows 吧，沒想到很快就出現另人懷念的畫面了</p><p><img src="http://i.imgur.com/ItjSCTM.jpg" alt="3"><br>好啦，我也完全不想看懂這是什麼</p><p>我想最麻煩的應該會是以下幾個部分了</p><ul><li>安裝 driver <code>有電腦、有 windows 10 就很迷人了，其他不強求</code></li><li>windows update <code>無盡的等待</code></li><li>鍵盤位置 <code>這可能是短期之內，無論是使用任何作業系統，只要遇到鍵盤就會發生不習慣的問題</code></li><li>其他快速鍵習慣操作與設定</li></ul><p>anyway，祝我好運吧，真不知道要適應多久了！！</p>]]></content>
     
     <summary type="html">
     
@@ -123,15 +66,11 @@
     <published>2017-06-02T09:50:20.000Z</published>
     <updated>2017-06-02T09:51:18.000Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="這是一篇測試文章"><a href="#這是一篇測試文章" class="headerlink" title="這是一篇測試文章"></a>這是一篇測試文章</h1><p>就是測試</p>
-<p>別介意啊！！</p>
-]]></content>
+    <content type="html"><![CDATA[<h1 id="這是一篇測試文章"><a href="#這是一篇測試文章" class="headerlink" title="這是一篇測試文章"></a>這是一篇測試文章</h1><p>就是測試</p><p>別介意啊！！</p>]]></content>
     
     <summary type="html">
     
-      &lt;h1 id=&quot;這是一篇測試文章&quot;&gt;&lt;a href=&quot;#這是一篇測試文章&quot; class=&quot;headerlink&quot; title=&quot;這是一篇測試文章&quot;&gt;&lt;/a&gt;這是一篇測試文章&lt;/h1&gt;&lt;p&gt;就是測試&lt;/p&gt;
-&lt;p&gt;別介意啊！！&lt;/p&gt;
-
+      &lt;h1 id=&quot;這是一篇測試文章&quot;&gt;&lt;a href=&quot;#這是一篇測試文章&quot; class=&quot;headerlink&quot; title=&quot;這是一篇測試文章&quot;&gt;&lt;/a&gt;這是一篇測試文章&lt;/h1&gt;&lt;p&gt;就是測試&lt;/p&gt;&lt;p&gt;別介意啊！！&lt;/p&gt;
     
     </summary>
     
@@ -145,16 +84,7 @@
     <published>2017-06-02T08:11:45.000Z</published>
     <updated>2017-06-02T08:11:45.000Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-]]></content>
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>]]></content>
     
     <summary type="html">
     
