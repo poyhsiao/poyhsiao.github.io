@@ -4,9 +4,9 @@
   <subtitle>Hey whatz up</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://poyhsiao.github.io/"/>
+  <link href="http://poyhsiao.giikr.info/"/>
   <updated>2017-06-21T06:13:05.000Z</updated>
-  <id>https://poyhsiao.github.io/</id>
+  <id>http://poyhsiao.giikr.info/</id>
   
   <author>
     <name>Kim Hsiao</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>偷看程式碼真的有很大的益處</title>
-    <link href="https://poyhsiao.github.io/2017/06/20/2017-06-20-1/"/>
-    <id>https://poyhsiao.github.io/2017/06/20/2017-06-20-1/</id>
+    <link href="http://poyhsiao.giikr.info/2017/06/20/2017-06-20-1/"/>
+    <id>http://poyhsiao.giikr.info/2017/06/20/2017-06-20-1/</id>
     <published>2017-06-20T10:08:03.000Z</published>
     <updated>2017-06-21T06:13:05.000Z</updated>
     
@@ -30,21 +30,21 @@
     
     </summary>
     
-      <category term="life" scheme="https://poyhsiao.github.io/categories/life/"/>
+      <category term="life" scheme="http://poyhsiao.giikr.info/categories/life/"/>
     
     
-      <category term="hexo" scheme="https://poyhsiao.github.io/tags/hexo/"/>
+      <category term="hexo" scheme="http://poyhsiao.giikr.info/tags/hexo/"/>
     
-      <category term="markdown" scheme="https://poyhsiao.github.io/tags/markdown/"/>
+      <category term="markdown" scheme="http://poyhsiao.giikr.info/tags/markdown/"/>
     
-      <category term="mweb" scheme="https://poyhsiao.github.io/tags/mweb/"/>
+      <category term="mweb" scheme="http://poyhsiao.giikr.info/tags/mweb/"/>
     
   </entry>
   
   <entry>
     <title>很久沒有用 windows 了</title>
-    <link href="https://poyhsiao.github.io/2017/06/20/2017-06-20/"/>
-    <id>https://poyhsiao.github.io/2017/06/20/2017-06-20/</id>
+    <link href="http://poyhsiao.giikr.info/2017/06/20/2017-06-20/"/>
+    <id>http://poyhsiao.giikr.info/2017/06/20/2017-06-20/</id>
     <published>2017-06-20T04:02:10.000Z</published>
     <updated>2017-06-20T05:23:25.000Z</updated>
     
@@ -61,8 +61,8 @@
   
   <entry>
     <title>測試文章</title>
-    <link href="https://poyhsiao.github.io/2017/06/02/2017-06-02/"/>
-    <id>https://poyhsiao.github.io/2017/06/02/2017-06-02/</id>
+    <link href="http://poyhsiao.giikr.info/2017/06/02/2017-06-02/"/>
+    <id>http://poyhsiao.giikr.info/2017/06/02/2017-06-02/</id>
     <published>2017-06-02T09:50:20.000Z</published>
     <updated>2017-06-02T09:51:18.000Z</updated>
     
@@ -79,8 +79,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://poyhsiao.github.io/2017/06/02/hello-world/"/>
-    <id>https://poyhsiao.github.io/2017/06/02/hello-world/</id>
+    <link href="http://poyhsiao.giikr.info/2017/06/02/hello-world/"/>
+    <id>http://poyhsiao.giikr.info/2017/06/02/hello-world/</id>
     <published>2017-06-02T08:11:45.000Z</published>
     <updated>2017-06-02T08:11:45.000Z</updated>
     
