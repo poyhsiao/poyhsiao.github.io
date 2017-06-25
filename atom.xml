@@ -87,6 +87,8 @@
       <category term="hexo" scheme="http://poyhsiao.giikr.info/categories/html/hexo/"/>
     
     
+      <category term="js" scheme="http://poyhsiao.giikr.info/tags/js/"/>
+    
       <category term="hexo" scheme="http://poyhsiao.giikr.info/tags/hexo/"/>
     
       <category term="optimize" scheme="http://poyhsiao.giikr.info/tags/optimize/"/>
@@ -94,8 +96,6 @@
       <category term="html" scheme="http://poyhsiao.giikr.info/tags/html/"/>
     
       <category term="css" scheme="http://poyhsiao.giikr.info/tags/css/"/>
-    
-      <category term="js" scheme="http://poyhsiao.giikr.info/tags/js/"/>
     
       <category term="RWD" scheme="http://poyhsiao.giikr.info/tags/RWD/"/>
     
@@ -150,13 +150,13 @@
     <link href="http://poyhsiao.giikr.info/2017/06/02/2017-06-02/"/>
     <id>http://poyhsiao.giikr.info/2017/06/02/2017-06-02/</id>
     <published>2017-06-02T09:50:20.000Z</published>
-    <updated>2017-06-02T09:51:18.000Z</updated>
+    <updated>2017-06-25T15:46:14.000Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="這是一篇測試文章"><a href="#這是一篇測試文章" class="headerlink" title="這是一篇測試文章"></a>這是一篇測試文章</h1><p>就是測試</p><p>別介意啊！！</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="這是一篇測試文章"><a href="#這是一篇測試文章" class="headerlink" title="這是一篇測試文章"></a>這是一篇測試文章</h1><p>就是測試1234</p><p>別介意啊！！</p>]]></content>
     
     <summary type="html">
     
-      &lt;h1 id=&quot;這是一篇測試文章&quot;&gt;&lt;a href=&quot;#這是一篇測試文章&quot; class=&quot;headerlink&quot; title=&quot;這是一篇測試文章&quot;&gt;&lt;/a&gt;這是一篇測試文章&lt;/h1&gt;&lt;p&gt;就是測試&lt;/p&gt;&lt;p&gt;別介意啊！！&lt;/p&gt;
+      &lt;h1 id=&quot;這是一篇測試文章&quot;&gt;&lt;a href=&quot;#這是一篇測試文章&quot; class=&quot;headerlink&quot; title=&quot;這是一篇測試文章&quot;&gt;&lt;/a&gt;這是一篇測試文章&lt;/h1&gt;&lt;p&gt;就是測試1234&lt;/p&gt;&lt;p&gt;別介意啊！！&lt;/p&gt;
     
     </summary>
     

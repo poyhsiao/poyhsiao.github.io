@@ -66,6 +66,8 @@
         
         <tags>
             
+            <tag> js </tag>
+            
             <tag> hexo </tag>
             
             <tag> optimize </tag>
@@ -73,8 +75,6 @@
             <tag> html </tag>
             
             <tag> css </tag>
-            
-            <tag> js </tag>
             
             <tag> RWD </tag>
             
@@ -117,7 +117,7 @@
     <entry>
       <title><![CDATA[測試文章]]></title>
       <url>/2017/06/02/2017-06-02/</url>
-      <content type="html"><![CDATA[<h1 id="這是一篇測試文章"><a href="#這是一篇測試文章" class="headerlink" title="這是一篇測試文章"></a>這是一篇測試文章</h1><p>就是測試</p><p>別介意啊！！</p>]]></content>
+      <content type="html"><![CDATA[<h1 id="這是一篇測試文章"><a href="#這是一篇測試文章" class="headerlink" title="這是一篇測試文章"></a>這是一篇測試文章</h1><p>就是測試1234</p><p>別介意啊！！</p>]]></content>
       
         
     </entry>
