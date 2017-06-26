@@ -3,6 +3,38 @@
   
     
     <entry>
+      <title><![CDATA[想要做一個簡單的書籤管理平台]]></title>
+      <url>/2017/06/26/2017-06-26-1/</url>
+      <content type="html"><![CDATA[<p><img src="http://i.imgur.com/w5vMcFq.jpg" alt="江南好風光"></p><h2 id="起源"><a href="#起源" class="headerlink" title="起源"></a>起源</h2><p>其實早就覺得目前的書籤管理工具都不太好，然而，每次使用 <a href="https://evernote.com/intl/zh-tw/" title="Evernote" target="_blank" rel="external">evernote</a> 或是 <a href="https://www.onenote.com" title="One Note" target="_blank" rel="external">onenote</a> 都覺得綁手綁腳，真的想要有個簡單的管理書籤的平台，該倒的也差不多都倒光了，好吧，那就乾脆自己動手做一個吧</p><a id="more"></a><h2 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h2><p>目前想到的功能應該有以下幾個：</p><ol><li>快速放入網址建立書籤</li><li>項目可以自訂 title、說明、tags 等項目（選填）</li><li>呈現方式回有簡單的網頁內容（類似於 <a href="https://evernote.com/intl/zh-tw/" title="Evernote" target="_blank" rel="external">evernote</a> 的 <em>clearly</em> 模式）</li><li>具有搜尋功能，可以搜尋: 網址、title、說明、標籤、簡單網頁內容</li><li>可以分享出去（系統自動產生網址）</li><li>搜尋結果，可以匯出成 html、json 格式</li><li>可以完整匯出、匯入和備份</li><li>基本還是要有會員概念</li></ol><p>目前想到的大概就是這些項目，未來應該要有的功能應該可以增加：</p><ol><li>app</li><li>browser extension</li><li>項目分析等的後台功能</li><li>平台化、交流等的功能</li></ol><p>基本的想法大概就是這樣吧，我想困難度不高，期待可以快速完成，順便熟悉一些新技術。未來可能第一版完成後，會先丟一版作為 open source project</p><p>Anyway, good luck</p>]]></content>
+      
+        <categories>
+            
+            <category> project </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> html </tag>
+            
+            <tag> bookmark </tag>
+            
+            <tag> evernote </tag>
+            
+            <tag> onenote </tag>
+            
+            <tag> sharing </tag>
+            
+            <tag> export </tag>
+            
+            <tag> json </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[有了 git hooks 其實已經解決了大部分的工作]]></title>
       <url>/2017/06/26/2017-06-26/</url>
       <content type="html"><![CDATA[<p>這幾天一直在想，其實 <a href="https://hexo.io" target="_blank" rel="external">hexo</a> 已經超級方便了，反正可以開心的寫作，也可以輕鬆地維護控管版本</p><p>但是，總是覺得不是這麼順手，畢竟，好像每次寫完文章後，就讓他自動 deploy 到遠端服務上，當然是件很簡單的事情。不過，大部分時候，就是因為這麼簡單，所以根本忘記要 commit 甚至 push 上去</p><p>所以就開始胡思亂想啦，是不是應該用 CI <code>continues integration</code> 的方式，甚至可以 CD <code>continues delivery</code> 當然，有沒有達成這麼完美的目的倒是未必，更重要的概念，是可以盡量畢其功於一役</p><p>所以，可以考慮執行的方式有以下幾點：</p><ul><li>寫個 script，在 deploy 之前，先 commit code</li></ul><figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">$ ./bin/deploy.sh</div><div class="line"></div><div class="line"><span class="comment">#... 要先做一大堆事情，如 git add 等等一大堆</span></div><div class="line"></div><div class="line">$ git commit</div></pre></td></tr></table></figure><ul><li>先 commit code，然後再 deploy 相關的 code</li></ul><figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># ... 先做一大堆事情</span></div><div class="line"></div><div class="line">$ git commit</div><div class="line"></div><div class="line">$ ./bin/deploy.sh</div></pre></td></tr></table></figure><ul><li>乾脆把這些事情丟到 jenkins 上面幫忙</li></ul><p>以上幾點來看，第三點算是真的殺雞用牛刀了，不但要有一個 jenkins 的服務，還要寫一些 script，甚至想說從 <strong>A</strong> git repository 到 <strong>B (github.io ?)</strong> 這種動作，真的有違常理。所以用 jenkins 真的不太直覺方便</p><p>再來，先 commit 再 deploy，這部分來說，其實對於 <a href="https://hexo.io" target="_blank" rel="external">hexo</a> 來說，deploy 其實是包括了 generate -&gt; deploy ，所以萬一 generate code 時，有發生任何錯誤，那也就是改壞了、有 bug 了。這樣的 commit 似乎也不好</p><p>所以，比較好的概念應該是類似於第一種。先 generate code，如果沒問題的話，就 commit，如果有問題，那就該啊～～</p><p>因此，應該考慮使用第一種方式，就是先 generate code，再 commit code 吧。不過（世上就是這麼多，不過…）這樣還是有點麻煩，畢竟正如同前面所提到的，如果要我打這麼多 command，那麼就一點也不符合懶的原則了</p><p>經過幾個小時偷玩 Jenkins 後，順便 Google 了一下，其實是可以考慮使用 [git hooks] 的功能</p><p>原本還以為是什麼外掛呢，原來他早就已經存在於 .git 的資料夾中，這要簡單的修改就可以使用了，而且是最簡單的 shell script 而已，只要吧 *.sample 後面的 sample 副檔名，就可以直接使用啦</p><p>先說一下我的想法和做法吧：</p><ul><li>commit 前，就先讓 <a href="https://hexo.io" target="_blank" rel="external">hexo</a> generate html 吧，順便看看有沒有問題</li><li>commit code</li><li>commit 後，就直接把剛才 generate 出來的 html，deploy 到指定的目的地吧</li></ul><p>既然概念這麼簡單，就直接說要怎麼做了</p><ul><li>修改一下 <code>./git/hooks/pre-commit.sample</code></li></ul><figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#!/bin/sh</span></div><div class="line"></div><div class="line"><span class="built_in">exec</span> ./bin/generate.sh</div></pre></td></tr></table></figure><ul><li>重新修改檔名，把後面的 <code>.sample</code> 拿掉，就會變成 <code>pre-commit</code> 這個檔名。待會 commit code 之前，就會自動執行剛才所執行的 <code>generate.sh</code> 這個 script 啦</li><li>另一部分，也可以有 <code>post-commit</code> 這個檔案，就是 commit 完成後要執行的動作，如果沒有這個檔案，那就手動生一個吧</li><li>其他還有不同的功能和處罰時機不同的功能</li></ul><p>如此一來，我就可以在 commit code 完成後，不但產生了目的的 html ，又可以在 commit 完成後，直接 deploy html 頁面到目標的地方</p><p>這麼說來，除了需要在檢視是否功能有誤時，無法直接操作外，其他的部分，就可以全自動把 code commit，又可以達成 deploy 的目標。真的算是一舉數得啊！！</p><p>相關 git hooks 資料，可以看看 <a href="https://git-scm.com/book/zh-tw/v1/Git-客製化-Git-Hooks" title="git hooks" target="_blank" rel="external">這裡</a></p>]]></content>

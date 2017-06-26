@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://poyhsiao.giikr.info/"/>
-  <updated>2017-06-25T16:48:14.000Z</updated>
+  <updated>2017-06-26T05:15:59.000Z</updated>
   <id>http://poyhsiao.giikr.info/</id>
   
   <author>
@@ -14,6 +14,40 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>想要做一個簡單的書籤管理平台</title>
+    <link href="http://poyhsiao.giikr.info/2017/06/26/2017-06-26-1/"/>
+    <id>http://poyhsiao.giikr.info/2017/06/26/2017-06-26-1/</id>
+    <published>2017-06-26T04:53:07.000Z</published>
+    <updated>2017-06-26T05:15:59.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://i.imgur.com/w5vMcFq.jpg" alt="江南好風光"></p><h2 id="起源"><a href="#起源" class="headerlink" title="起源"></a>起源</h2><p>其實早就覺得目前的書籤管理工具都不太好，然而，每次使用 <a href="https://evernote.com/intl/zh-tw/" title="Evernote" target="_blank" rel="external">evernote</a> 或是 <a href="https://www.onenote.com" title="One Note" target="_blank" rel="external">onenote</a> 都覺得綁手綁腳，真的想要有個簡單的管理書籤的平台，該倒的也差不多都倒光了，好吧，那就乾脆自己動手做一個吧</p><a id="more"></a><h2 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h2><p>目前想到的功能應該有以下幾個：</p><ol><li>快速放入網址建立書籤</li><li>項目可以自訂 title、說明、tags 等項目（選填）</li><li>呈現方式回有簡單的網頁內容（類似於 <a href="https://evernote.com/intl/zh-tw/" title="Evernote" target="_blank" rel="external">evernote</a> 的 <em>clearly</em> 模式）</li><li>具有搜尋功能，可以搜尋: 網址、title、說明、標籤、簡單網頁內容</li><li>可以分享出去（系統自動產生網址）</li><li>搜尋結果，可以匯出成 html、json 格式</li><li>可以完整匯出、匯入和備份</li><li>基本還是要有會員概念</li></ol><p>目前想到的大概就是這些項目，未來應該要有的功能應該可以增加：</p><ol><li>app</li><li>browser extension</li><li>項目分析等的後台功能</li><li>平台化、交流等的功能</li></ol><p>基本的想法大概就是這樣吧，我想困難度不高，期待可以快速完成，順便熟悉一些新技術。未來可能第一版完成後，會先丟一版作為 open source project</p><p>Anyway, good luck</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://i.imgur.com/w5vMcFq.jpg&quot; alt=&quot;江南好風光&quot;&gt;&lt;/p&gt;&lt;h2 id=&quot;起源&quot;&gt;&lt;a href=&quot;#起源&quot; class=&quot;headerlink&quot; title=&quot;起源&quot;&gt;&lt;/a&gt;起源&lt;/h2&gt;&lt;p&gt;其實早就覺得目前的書籤管理工具都不太好，然而，每次使用 &lt;a href=&quot;https://evernote.com/intl/zh-tw/&quot; title=&quot;Evernote&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;evernote&lt;/a&gt; 或是 &lt;a href=&quot;https://www.onenote.com&quot; title=&quot;One Note&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;onenote&lt;/a&gt; 都覺得綁手綁腳，真的想要有個簡單的管理書籤的平台，該倒的也差不多都倒光了，好吧，那就乾脆自己動手做一個吧&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="project" scheme="http://poyhsiao.giikr.info/categories/project/"/>
+    
+    
+      <category term="html" scheme="http://poyhsiao.giikr.info/tags/html/"/>
+    
+      <category term="bookmark" scheme="http://poyhsiao.giikr.info/tags/bookmark/"/>
+    
+      <category term="evernote" scheme="http://poyhsiao.giikr.info/tags/evernote/"/>
+    
+      <category term="onenote" scheme="http://poyhsiao.giikr.info/tags/onenote/"/>
+    
+      <category term="sharing" scheme="http://poyhsiao.giikr.info/tags/sharing/"/>
+    
+      <category term="export" scheme="http://poyhsiao.giikr.info/tags/export/"/>
+    
+      <category term="json" scheme="http://poyhsiao.giikr.info/tags/json/"/>
+    
+  </entry>
   
   <entry>
     <title>有了 git hooks 其實已經解決了大部分的工作</title>
