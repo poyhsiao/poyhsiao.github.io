@@ -4,9 +4,9 @@
   <subtitle>Hey whatz up</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://poyhsiao.giikr.info/"/>
+  <link href="https://poyhsiao.github.io/"/>
   <updated>2017-06-30T17:48:43.000Z</updated>
-  <id>http://poyhsiao.giikr.info/</id>
+  <id>https://poyhsiao.github.io/</id>
   
   <author>
     <name>Kim Hsiao</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>新鍵盤入手 - Logitech K380</title>
-    <link href="http://poyhsiao.giikr.info/2017/06/30/2017-06-30/"/>
-    <id>http://poyhsiao.giikr.info/2017/06/30/2017-06-30/</id>
+    <link href="https://poyhsiao.github.io/2017/06/30/2017-06-30/"/>
+    <id>https://poyhsiao.github.io/2017/06/30/2017-06-30/</id>
     <published>2017-06-30T14:30:46.000Z</published>
     <updated>2017-06-30T17:48:43.000Z</updated>
     
@@ -30,23 +30,23 @@
     
     </summary>
     
-      <category term="life" scheme="http://poyhsiao.giikr.info/categories/life/"/>
+      <category term="life" scheme="https://poyhsiao.github.io/categories/life/"/>
     
     
-      <category term="logitech" scheme="http://poyhsiao.giikr.info/tags/logitech/"/>
+      <category term="logitech" scheme="https://poyhsiao.github.io/tags/logitech/"/>
     
-      <category term="bluetooth" scheme="http://poyhsiao.giikr.info/tags/bluetooth/"/>
+      <category term="bluetooth" scheme="https://poyhsiao.github.io/tags/bluetooth/"/>
     
-      <category term="costco" scheme="http://poyhsiao.giikr.info/tags/costco/"/>
+      <category term="costco" scheme="https://poyhsiao.github.io/tags/costco/"/>
     
-      <category term="applescript" scheme="http://poyhsiao.giikr.info/tags/applescript/"/>
+      <category term="applescript" scheme="https://poyhsiao.github.io/tags/applescript/"/>
     
   </entry>
   
   <entry>
     <title>想要做一個簡單的書籤管理平台</title>
-    <link href="http://poyhsiao.giikr.info/2017/06/26/2017-06-26-1/"/>
-    <id>http://poyhsiao.giikr.info/2017/06/26/2017-06-26-1/</id>
+    <link href="https://poyhsiao.github.io/2017/06/26/2017-06-26-1/"/>
+    <id>https://poyhsiao.github.io/2017/06/26/2017-06-26-1/</id>
     <published>2017-06-26T04:53:07.000Z</published>
     <updated>2017-06-26T05:15:59.000Z</updated>
     
@@ -58,29 +58,29 @@
     
     </summary>
     
-      <category term="project" scheme="http://poyhsiao.giikr.info/categories/project/"/>
+      <category term="project" scheme="https://poyhsiao.github.io/categories/project/"/>
     
     
-      <category term="html" scheme="http://poyhsiao.giikr.info/tags/html/"/>
+      <category term="html" scheme="https://poyhsiao.github.io/tags/html/"/>
     
-      <category term="bookmark" scheme="http://poyhsiao.giikr.info/tags/bookmark/"/>
+      <category term="bookmark" scheme="https://poyhsiao.github.io/tags/bookmark/"/>
     
-      <category term="evernote" scheme="http://poyhsiao.giikr.info/tags/evernote/"/>
+      <category term="evernote" scheme="https://poyhsiao.github.io/tags/evernote/"/>
     
-      <category term="onenote" scheme="http://poyhsiao.giikr.info/tags/onenote/"/>
+      <category term="onenote" scheme="https://poyhsiao.github.io/tags/onenote/"/>
     
-      <category term="sharing" scheme="http://poyhsiao.giikr.info/tags/sharing/"/>
+      <category term="sharing" scheme="https://poyhsiao.github.io/tags/sharing/"/>
     
-      <category term="export" scheme="http://poyhsiao.giikr.info/tags/export/"/>
+      <category term="export" scheme="https://poyhsiao.github.io/tags/export/"/>
     
-      <category term="json" scheme="http://poyhsiao.giikr.info/tags/json/"/>
+      <category term="json" scheme="https://poyhsiao.github.io/tags/json/"/>
     
   </entry>
   
   <entry>
     <title>有了 git hooks 其實已經解決了大部分的工作</title>
-    <link href="http://poyhsiao.giikr.info/2017/06/26/2017-06-26/"/>
-    <id>http://poyhsiao.giikr.info/2017/06/26/2017-06-26/</id>
+    <link href="https://poyhsiao.github.io/2017/06/26/2017-06-26/"/>
+    <id>https://poyhsiao.github.io/2017/06/26/2017-06-26/</id>
     <published>2017-06-25T16:00:29.000Z</published>
     <updated>2017-06-25T16:48:14.000Z</updated>
     
@@ -92,25 +92,25 @@
     
     </summary>
     
-      <category term="tech" scheme="http://poyhsiao.giikr.info/categories/tech/"/>
+      <category term="tech" scheme="https://poyhsiao.github.io/categories/tech/"/>
     
     
-      <category term="git" scheme="http://poyhsiao.giikr.info/tags/git/"/>
+      <category term="git" scheme="https://poyhsiao.github.io/tags/git/"/>
     
-      <category term="deploy" scheme="http://poyhsiao.giikr.info/tags/deploy/"/>
+      <category term="deploy" scheme="https://poyhsiao.github.io/tags/deploy/"/>
     
-      <category term="jenkins" scheme="http://poyhsiao.giikr.info/tags/jenkins/"/>
+      <category term="jenkins" scheme="https://poyhsiao.github.io/tags/jenkins/"/>
     
-      <category term="ci" scheme="http://poyhsiao.giikr.info/tags/ci/"/>
+      <category term="ci" scheme="https://poyhsiao.github.io/tags/ci/"/>
     
-      <category term="cd" scheme="http://poyhsiao.giikr.info/tags/cd/"/>
+      <category term="cd" scheme="https://poyhsiao.github.io/tags/cd/"/>
     
   </entry>
   
   <entry>
     <title>使用 js 建構機器學習核心</title>
-    <link href="http://poyhsiao.giikr.info/2017/06/23/2017-06-23/"/>
-    <id>http://poyhsiao.giikr.info/2017/06/23/2017-06-23/</id>
+    <link href="https://poyhsiao.github.io/2017/06/23/2017-06-23/"/>
+    <id>https://poyhsiao.github.io/2017/06/23/2017-06-23/</id>
     <published>2017-06-23T01:28:41.000Z</published>
     <updated>2017-06-23T03:31:02.000Z</updated>
     
@@ -122,25 +122,25 @@
     
     </summary>
     
-      <category term="參考" scheme="http://poyhsiao.giikr.info/categories/%E5%8F%83%E8%80%83/"/>
+      <category term="參考" scheme="https://poyhsiao.github.io/categories/%E5%8F%83%E8%80%83/"/>
     
-      <category term="學習" scheme="http://poyhsiao.giikr.info/categories/%E5%8F%83%E8%80%83/%E5%AD%B8%E7%BF%92/"/>
+      <category term="學習" scheme="https://poyhsiao.github.io/categories/%E5%8F%83%E8%80%83/%E5%AD%B8%E7%BF%92/"/>
     
-      <category term="範例" scheme="http://poyhsiao.giikr.info/categories/%E5%8F%83%E8%80%83/%E5%AD%B8%E7%BF%92/%E7%AF%84%E4%BE%8B/"/>
+      <category term="範例" scheme="https://poyhsiao.github.io/categories/%E5%8F%83%E8%80%83/%E5%AD%B8%E7%BF%92/%E7%AF%84%E4%BE%8B/"/>
     
-      <category term="evernote" scheme="http://poyhsiao.giikr.info/categories/%E5%8F%83%E8%80%83/%E5%AD%B8%E7%BF%92/%E7%AF%84%E4%BE%8B/evernote/"/>
+      <category term="evernote" scheme="https://poyhsiao.github.io/categories/%E5%8F%83%E8%80%83/%E5%AD%B8%E7%BF%92/%E7%AF%84%E4%BE%8B/evernote/"/>
     
     
-      <category term="js" scheme="http://poyhsiao.giikr.info/tags/js/"/>
+      <category term="js" scheme="https://poyhsiao.github.io/tags/js/"/>
     
-      <category term="machine learning" scheme="http://poyhsiao.giikr.info/tags/machine-learning/"/>
+      <category term="machine learning" scheme="https://poyhsiao.github.io/tags/machine-learning/"/>
     
   </entry>
   
   <entry>
     <title>成長就是先遇到阻礙</title>
-    <link href="http://poyhsiao.giikr.info/2017/06/22/2017-06-22/"/>
-    <id>http://poyhsiao.giikr.info/2017/06/22/2017-06-22/</id>
+    <link href="https://poyhsiao.github.io/2017/06/22/2017-06-22/"/>
+    <id>https://poyhsiao.github.io/2017/06/22/2017-06-22/</id>
     <published>2017-06-22T09:58:47.000Z</published>
     <updated>2017-06-22T10:35:41.000Z</updated>
     
@@ -152,21 +152,21 @@
     
     </summary>
     
-      <category term="life" scheme="http://poyhsiao.giikr.info/categories/life/"/>
+      <category term="life" scheme="https://poyhsiao.github.io/categories/life/"/>
     
     
-      <category term="life" scheme="http://poyhsiao.giikr.info/tags/life/"/>
+      <category term="life" scheme="https://poyhsiao.github.io/tags/life/"/>
     
   </entry>
   
   <entry>
     <title>項目最佳化</title>
-    <link href="http://poyhsiao.giikr.info/2017/06/21/2017-06-21/"/>
-    <id>http://poyhsiao.giikr.info/2017/06/21/2017-06-21/</id>
+    <link href="https://poyhsiao.github.io/2017/06/21/2017-06-21/"/>
+    <id>https://poyhsiao.github.io/2017/06/21/2017-06-21/</id>
     <published>2017-06-21T09:38:44.000Z</published>
     <updated>2017-06-21T10:00:48.000Z</updated>
     
-    <content type="html"><![CDATA[<p>倒也不算是什麼了不起的調整，反正靜態網頁就是要越最佳化越好嘛，例如</p><ul><li>圖片要更小一點</li><li>html 有多難讀就多難讀</li><li>js 能多小就多小，code 越簡單越好</li></ul><p>這樣，才可以加快讀取速度嘛</p><p><img src="http://i.imgur.com/mn1u0Gb.jpg" alt="開朵小花兒"></p><a id="more"></a><p>所以，這次也把我的 <a href="https://hexo.io" title="hexo" target="_blank" rel="external">hexo</a> 更小化了一點，另外把原本消失的 <em>categories</em> 和 <em>tags</em> 頁面也產出了 (ps. 我是參考 <a href="https://github.com/iissnan/hexo-theme-next/issues/51" title="消失的 tags 和 categories 頁面" target="_blank" rel="external">這裡</a> 啦) <code>別問我 about 頁面如何，反正現在還沒想到要怎麼弄，先不管了...</code></p><p>當然另外，為了有更好的 RWD 效果，也做了小小的修改，總之，在手機上可不能太難看啊，畢竟手機用戶才是大宗</p><p>至於分享的部分，當然就簡單實用 <a href="https://www.shareaholic.com" target="_blank" rel="external">shareaholic</a> 囉，先求有再求好，跟何況已經夠好了，暫時不需要調整了</p><p>也就是說，這個 <a href="http://poyhsiao.giikr.info" title="Kimz Index">blog</a> 暫時功能也算是完成了！！</p>]]></content>
+    <content type="html"><![CDATA[<p>倒也不算是什麼了不起的調整，反正靜態網頁就是要越最佳化越好嘛，例如</p><ul><li>圖片要更小一點</li><li>html 有多難讀就多難讀</li><li>js 能多小就多小，code 越簡單越好</li></ul><p>這樣，才可以加快讀取速度嘛</p><p><img src="http://i.imgur.com/mn1u0Gb.jpg" alt="開朵小花兒"></p><a id="more"></a><p>所以，這次也把我的 <a href="https://hexo.io" title="hexo" target="_blank" rel="external">hexo</a> 更小化了一點，另外把原本消失的 <em>categories</em> 和 <em>tags</em> 頁面也產出了 (ps. 我是參考 <a href="https://github.com/iissnan/hexo-theme-next/issues/51" title="消失的 tags 和 categories 頁面" target="_blank" rel="external">這裡</a> 啦) <code>別問我 about 頁面如何，反正現在還沒想到要怎麼弄，先不管了...</code></p><p>當然另外，為了有更好的 RWD 效果，也做了小小的修改，總之，在手機上可不能太難看啊，畢竟手機用戶才是大宗</p><p>至於分享的部分，當然就簡單實用 <a href="https://www.shareaholic.com" target="_blank" rel="external">shareaholic</a> 囉，先求有再求好，跟何況已經夠好了，暫時不需要調整了</p><p>也就是說，這個 <a href="http://poyhsiao.giikr.info" title="Kimz Index" target="_blank" rel="external">blog</a> 暫時功能也算是完成了！！</p>]]></content>
     
     <summary type="html">
     
@@ -174,29 +174,29 @@
     
     </summary>
     
-      <category term="html" scheme="http://poyhsiao.giikr.info/categories/html/"/>
+      <category term="html" scheme="https://poyhsiao.github.io/categories/html/"/>
     
-      <category term="hexo" scheme="http://poyhsiao.giikr.info/categories/html/hexo/"/>
+      <category term="hexo" scheme="https://poyhsiao.github.io/categories/html/hexo/"/>
     
     
-      <category term="hexo" scheme="http://poyhsiao.giikr.info/tags/hexo/"/>
+      <category term="hexo" scheme="https://poyhsiao.github.io/tags/hexo/"/>
     
-      <category term="optimize" scheme="http://poyhsiao.giikr.info/tags/optimize/"/>
+      <category term="optimize" scheme="https://poyhsiao.github.io/tags/optimize/"/>
     
-      <category term="html" scheme="http://poyhsiao.giikr.info/tags/html/"/>
+      <category term="html" scheme="https://poyhsiao.github.io/tags/html/"/>
     
-      <category term="css" scheme="http://poyhsiao.giikr.info/tags/css/"/>
+      <category term="css" scheme="https://poyhsiao.github.io/tags/css/"/>
     
-      <category term="js" scheme="http://poyhsiao.giikr.info/tags/js/"/>
+      <category term="js" scheme="https://poyhsiao.github.io/tags/js/"/>
     
-      <category term="RWD" scheme="http://poyhsiao.giikr.info/tags/RWD/"/>
+      <category term="RWD" scheme="https://poyhsiao.github.io/tags/RWD/"/>
     
   </entry>
   
   <entry>
     <title>偷看程式碼真的有很大的益處</title>
-    <link href="http://poyhsiao.giikr.info/2017/06/20/2017-06-20-1/"/>
-    <id>http://poyhsiao.giikr.info/2017/06/20/2017-06-20-1/</id>
+    <link href="https://poyhsiao.github.io/2017/06/20/2017-06-20-1/"/>
+    <id>https://poyhsiao.github.io/2017/06/20/2017-06-20-1/</id>
     <published>2017-06-20T10:08:03.000Z</published>
     <updated>2017-06-21T09:54:35.000Z</updated>
     
@@ -208,21 +208,21 @@
     
     </summary>
     
-      <category term="life" scheme="http://poyhsiao.giikr.info/categories/life/"/>
+      <category term="life" scheme="https://poyhsiao.github.io/categories/life/"/>
     
     
-      <category term="hexo" scheme="http://poyhsiao.giikr.info/tags/hexo/"/>
+      <category term="hexo" scheme="https://poyhsiao.github.io/tags/hexo/"/>
     
-      <category term="markdown" scheme="http://poyhsiao.giikr.info/tags/markdown/"/>
+      <category term="markdown" scheme="https://poyhsiao.github.io/tags/markdown/"/>
     
-      <category term="mweb" scheme="http://poyhsiao.giikr.info/tags/mweb/"/>
+      <category term="mweb" scheme="https://poyhsiao.github.io/tags/mweb/"/>
     
   </entry>
   
   <entry>
     <title>很久沒有用 windows 了</title>
-    <link href="http://poyhsiao.giikr.info/2017/06/20/2017-06-20/"/>
-    <id>http://poyhsiao.giikr.info/2017/06/20/2017-06-20/</id>
+    <link href="https://poyhsiao.github.io/2017/06/20/2017-06-20/"/>
+    <id>https://poyhsiao.github.io/2017/06/20/2017-06-20/</id>
     <published>2017-06-20T04:02:10.000Z</published>
     <updated>2017-06-20T05:23:25.000Z</updated>
     
@@ -239,8 +239,8 @@
   
   <entry>
     <title>測試文章</title>
-    <link href="http://poyhsiao.giikr.info/2017/06/02/2017-06-02/"/>
-    <id>http://poyhsiao.giikr.info/2017/06/02/2017-06-02/</id>
+    <link href="https://poyhsiao.github.io/2017/06/02/2017-06-02/"/>
+    <id>https://poyhsiao.github.io/2017/06/02/2017-06-02/</id>
     <published>2017-06-02T09:50:20.000Z</published>
     <updated>2017-06-25T16:00:29.000Z</updated>
     
@@ -257,8 +257,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://poyhsiao.giikr.info/2017/06/02/hello-world/"/>
-    <id>http://poyhsiao.giikr.info/2017/06/02/hello-world/</id>
+    <link href="https://poyhsiao.github.io/2017/06/02/hello-world/"/>
+    <id>https://poyhsiao.github.io/2017/06/02/hello-world/</id>
     <published>2017-06-02T08:11:45.000Z</published>
     <updated>2017-06-02T08:11:45.000Z</updated>
     
