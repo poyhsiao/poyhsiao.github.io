@@ -3,6 +3,32 @@
   
     
     <entry>
+      <title><![CDATA[多台 Mac 同步系統設定檔]]></title>
+      <url>/2017/11/02/%E5%A4%9A%E5%8F%B0%20Mac%20%E5%90%8C%E6%AD%A5%E7%B3%BB%E7%B5%B1%E8%A8%AD%E5%AE%9A%E6%AA%94/</url>
+      <content type="html"><![CDATA[<h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>通常都是這樣吧，不知何時開始，早就已經習慣使用 Mac 作為主要的開發、使用機，使用 Linux 做為 server 或是次級桌面系統，漸漸也不習慣使用 Windows 的環境了；不過這一點也沒關係，反正有 command line interface (cli) 一點也沒問題，用起來倒是很順手。</p><p>唯一擔心的，就是多台電腦間，設定檔的同步問題，像是常會遇到的 browser, application setting 等問題，不過有些項目設定起來有點麻煩，所以至少，先同步一些常用的設定檔案</p><h2 id="目的"><a href="#目的" class="headerlink" title="目的"></a>目的</h2><p>這次目的也算是很簡單，至少我要先同步 <code>.zshrc</code> (oh-my-zsh), <code>.vimrc</code> (vim) 以及 <code>.ssh</code> (ssh - folder) 等幾個項目，當然方法有幾個，例如，使用 git 之類的服務，或是使用同步檔案的服務，如 dropbox 之類的</p><p>經過懶人病作祟以及科技始終來自於惰性的座右銘，我決定使用 <a href="https://www.dropbox.com" title="Dropbox" target="_blank" rel="external">Dropbox</a> 來同步我的設定檔</p><h2 id="操作"><a href="#操作" class="headerlink" title="操作"></a>操作</h2><p>其實與 git 比較起來，操作非常簡單，步驟如下：</p><ol><li>先在 <a href="https://www.dropbox.com" title="Dropbox" target="_blank" rel="external">Dropbox</a> 的同步資料夾中，建立一個準備同步的資料夾；我們先暫稱它為 dotfiles 好了</li><li>將要準備同步的檔案 / 資料夾先複製到這個要同步的資料夾中 (dotfiles)</li><li>刪除要同步的檔案 / 資料夾 (必先確定項目已經完成複製，並且已經同步完成)</li><li>重新把原本的項目 link 回原本項目應該在的位置</li></ol><p><img src="https://i.imgur.com/nLkiwYl.png" alt="screen 2017-11-02 11.54.19"></p><p><em>要注意的部分，為了要避免 unix-like 的系統中，檔案 / 資料夾前面有個 . ，代表是隱藏檔案 / 資料夾，為了確保在不同環境中，都可以看到這些檔案或是資料夾，複製過去 <a href="https://www.dropbox.com" title="Dropbox" target="_blank" rel="external">Dropbox</a> 時，還是最好把它另外命名為沒有前面有個 . 的一般正常檔案 / 資料夾</em></p><p>例如：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">cp -rf ~/.ssh /Users/kimhsiao/Dropbox/dotfiles/ssh</div><div class="line">rm -rf ~/.ssh</div><div class="line">ln -sf /Users/kimhsiao/Dropbox/dotfiles/ssh ~/.ssh</div></pre></td></tr></table></figure><p>新電腦操作步驟：<br></p><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">rm -rf ~/.ssh</div><div class="line">ln -sf /Users/kimhsiao/Dropbox/dotfiles/ssh ~/.ssh</div></pre></td></tr></table></figure><p></p><p>如此一來，就可以開心的在不同電腦中同步你的設定檔了</p>]]></content>
+      
+        <categories>
+            
+            <category> system </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> sync </tag>
+            
+            <tag> dropbox </tag>
+            
+            <tag> mac </tag>
+            
+            <tag> osx </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[新鍵盤入手 - Logitech K380]]></title>
       <url>/2017/06/30/2017-06-30/</url>
       <content type="html"><![CDATA[<h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>哈哈，也沒什麼特別原因，就不過是逛了一下 Costco <code>萬惡的 costco 😄</code> 就順手買了 logitech 的 k380 鍵盤</p><p>原本只是隨意看看，沒想到觸感出奇地好，而且真的很小，但是每個按鍵大小都跟舒適，另位還支援了 Mac / Windows / ChromeOS / iOS / Android 等，幾乎所有的作業系統平台 <code>別問我有沒有 linux 啊，那個是小事情，反正大部分都是用 ssh 進去，就算是桌面環境要支援，倒也不是件難事</code> ，最要命的是，竟然只要 699，透過比價網發現，外面都要 799 啊，那當然就順手買啦，又得再提一次，真的是萬惡的 Costco ，沒事真的不要隨意去逛，太危險了！！</p><p>重點是，回來用起來到底如何吧，話說， logitech 就不用在這裡拍馬屁了，反正本來品質就沒話說，使用起來到底如何呢？！</p><a id="more"></a><h3 id="為什麼要賣這隻-K380-呢？"><a href="#為什麼要賣這隻-K380-呢？" class="headerlink" title="為什麼要賣這隻 K380 呢？"></a>為什麼要賣這隻 K380 呢？</h3><ol><li>未來因為工作需要，可能會遇到需要操作不同系統的環境，但是每個平台的鍵盤都不同，每次要習慣操作都需要浪費很多時間，整體的工作效率會明顯降低；所以，選擇一個好的鍵盤，是基本的維持工作成效的一個投資</li><li>會運用到藍牙鍵盤的機率不是這麼高，但是，一旦需要時，成本卻不低。現在的電視盒幾乎都是 andorid 系統的，如果想要在電視盒上做進階的操作，使用一般的 USB 鍵盤在機動性和操作性，都比使用藍牙鍵盤麻煩多了。所以外出選擇藍牙鍵盤，會比選擇 USB 鍵盤更有競爭力</li><li>K380 的大小以及重量適中，要攜帶出去並不費力。與其使用其他人的鍵盤，用自己習慣的工具，會更容易事半功倍</li></ol><h3 id="優點"><a href="#優點" class="headerlink" title="優點"></a>優點</h3><ol><li>按鍵的觸感和比例大小真的很棒，完全沒有什麼按起來會有不順手的地方</li><li>一次可以支援三套裝置。手邊沒有這麼多套作業系統可以玩，目前只用另外一台 iPhone 和 android 手機，就順便試試了，其實連線操作都很順手，而且切換也挺方便的</li><li>根據官方說法，電池可以使用兩年。我是不知道啦，反正才剛開始使用，真的要用到沒電才能說到底可以用多久囉</li><li>價錢真的算是蠻實惠的。雖說沒有必要非用藍牙鍵盤或是外接鍵盤不可 <code>畢竟目前其實幾乎都是使用筆電，很少使用到桌機</code>，不過想到這樣的大小，這樣的待機水平，其實是可以到處使用的</li><li>對於 Mac 的使用者來說，真的算貼心的。畢竟她的 command 鍵和 <code>alt</code> / <code>option</code> 鍵都是在熟悉的地方，不需要考慮像是購買一般的鍵盤，都是主要設計給 Windows 用戶使用的，所以，control、Win 鍵都沒問題，但是，拿到 Mac 上面使用，就會覺得一整個不順手</li><li>對於習慣使用 Mac 的筆電使用者來說，應該很習慣鍵盤上面沒有 <code>del</code> 這個鍵吧，要使用 <code>del</code> 功能，就是 <code>fn + back</code> 鍵囉，習慣也還好，只是就覺得有點可惜。不過 K380 把 <code>del</code> 鍵加回去了，所以對於 Windows 使用者來說是很應該的，不過對於 Mac 使用者來說，可就是加分啦</li></ol><p>不過，當然還是得說一下可惜的地方</p><h3 id="缺點"><a href="#缺點" class="headerlink" title="缺點"></a>缺點</h3><ol><li>fn 和 control 這兩個鍵，對於 Mac 使用者來說，剛好是相反的。也就是，一般的 Mac 鍵盤的 fn 鍵，是在最左下角，再來才是 control 鍵，這部分，可能是為了給 Windows 用戶習慣吧，這方面我沒有太想知道，也懶得查了</li><li>鍵盤後方沒辦法在墊高一點。其實 K380 已經算是非常貼心了，本身已經在背後做了防滑墊，鍵盤也有個基本的角度，已經算是很符合人體工學了。不過，少了個可以再站立的腳架，不免還是有點可惜</li><li>鍵盤不是純英文鍵盤。其實這也不太算是缺點啦，反正在台灣賣的鍵盤，要真的完全沒有 ㄅㄆㄇ 或是乾淨沒有倉頡字碼的鍵盤，真的不是這麼容易找，而且又在 Costco 買的，其實能選擇的更是少，但是還是得說一下，因為 K380 實在是貼心到爆炸，他除了有注音、倉頡，甚至還有另外一個不太確定是大易還是無蝦米的字根在上面 <code>到底是什麼，我也懶得查，反正根本用不到</code>，所以，小小乾淨簡潔的設計，因為在每個鍵上面，都添加了四種符號，看起來真的有點破壞美感，算是小小可惜</li><li>沒有手持裝置的立架。這也不算是個缺點，因為本來就有個 K480 啊，他就是有立架的那種；只是，既然是可以支援手持裝置，沒有立架，在使用上是有點不這麼方便；如果可以簡單的拖拉出一個小地盤，那就太棒棒了</li></ol><p>整體來說，真的算是個很棒、很超值的藍牙鍵盤</p><h2 id="問題"><a href="#問題" class="headerlink" title="問題"></a>問題</h2><p>好的，其實真的沒有什麼問題好說的，操作起來完全不會覺得彆扭。只不過，哪有這麼開心的，對於我來說， <code>fn</code> 和 <code>control</code> 兩個鍵的位置不同，其實並不會太困擾我，畢竟使用的機率也沒有這麼多，反正之後都會用 K380 當作我習慣使用的鍵盤，但是，另一個問題，反而是比較重要的…</p><h3 id="鎖定-Macbook-家族-notebook-的螢幕"><a href="#鎖定-Macbook-家族-notebook-的螢幕" class="headerlink" title="鎖定 Macbook 家族 notebook 的螢幕"></a>鎖定 Macbook 家族 notebook 的螢幕</h3><p>好啦，我相信，沒有這麼多人回有這方面的困擾，畢竟可以使用滑鼠移往熱點的方式達成。但是，習慣使用鍵盤的來說，多點擊幾次滑鼠，或是手離開鍵盤這件事，就是一件中斷操作與思考的一個行為；就連螢幕上鎖這件事情也是一樣。而且，滑鼠位置移往熱點來說，真的會不小心觸及到，又會再次中斷工作與思路</p><p>原本鎖定螢幕的方式很簡單：</p><ul><li>有光碟機的版本</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;command&gt; + &lt;shift&gt; + &lt;eject&gt;</div></pre></td></tr></table></figure><ul><li>新一代的系統，沒有光碟機的版本</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;command&gt; + &lt;shift&gt; + &lt;power&gt;</div></pre></td></tr></table></figure><p>好啦，遇到 K380 就沒輒啦，畢竟鍵盤上面沒有 <code>eject</code> 或是 <code>power</code> 鍵，想要鎖螢幕就不容易了吧！！</p><p>還好在 Mac 中，總是有辦法解決 <code>就跟 linux 一樣</code>，因為 Mac 有一個內建的小機器人 <strong><em>Automator</em></strong> ，這個東西真的是佛心來的，只要覺得 Mac 在哪方面用起來不是這麼順手，想要有更好的操作經驗，這個 <strong><em>Automator</em></strong> 提供了簡易的圖形化介面，或是高級的 applescript 方式，就可以很簡單的幫助你了。</p><p>至於 <strong><em>Automator</em></strong> 的操作介紹，以及 <strong><em>Applescript</em></strong> 的語法，完全不是我們要介紹的重點，這次只想要分享，如何讓 Mac 也可以使用類似於 Windows 使用 <code>Win</code> + <code>L</code> 的方式，鎖定螢幕</p><h3 id="自行設定替代的螢幕鎖定方式"><a href="#自行設定替代的螢幕鎖定方式" class="headerlink" title="自行設定替代的螢幕鎖定方式"></a>自行設定替代的螢幕鎖定方式</h3><p>原文可以參考 <a href="https://apple.stackexchange.com/questions/135728/using-applescript-to-lock-screen" title="參考來源" target="_blank" rel="external">這裡</a> 的最佳解說明</p><p>但是項目太複雜了，而且還會在狀態列上面多一個圖示，對於螢幕本來就不大，而且已經有很多圖示在上面的我來說，怎麼看怎麼不開心，所以就使用了其他方式</p><ul><li>開啟 <strong><em>Automator</em></strong></li><li>新增一個 <strong>服務</strong></li></ul><p><img src="http://i.imgur.com/FdG0IH4.png" alt="新增服務"></p><ul><li>新增一個 <strong><em>Applescript</em></strong></li><li>拖曳項目到右邊的流程</li><li>服務接收：選擇 <em>沒有輸入項目</em></li><li>script 內容填入：</li></ul><figure class="highlight applescript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">tell</span> <span class="built_in">application</span> <span class="string">"Finder"</span> <span class="keyword">to</span> sleep</div></pre></td></tr></table></figure><p><img src="http://i.imgur.com/ZGnl0iY.jpg" alt="項目流程圖"></p><ul><li>存檔，可以考慮設為檔名「<strong>Lock screen</strong>」</li><li>前往 <strong><em>系統偏好設定</em></strong></li><li>選擇 <strong><em>鍵盤</em></strong> -&gt; <strong><em>快速鍵</em></strong> -&gt; <strong><em>服務</em></strong></li><li>找到並勾選剛才設定的服務名稱 <code>以 Lock Screen 為例</code></li><li>點選項目右邊的，設定快速鍵</li></ul><p><img src="http://i.imgur.com/LaAMKjt.jpg" alt="設定服務與快速鍵"></p><ul><li>設定好快速鍵後，就完成新的螢幕鎖定功能了，也可以使用喜歡的螢幕鎖定快速鍵方式，在 K380 上開心的使用螢幕鎖定的功能了</li></ul>]]></content>
@@ -42,8 +68,6 @@
         
         <tags>
             
-            <tag> html </tag>
-            
             <tag> bookmark </tag>
             
             <tag> evernote </tag>
@@ -53,6 +77,8 @@
             <tag> sharing </tag>
             
             <tag> export </tag>
+            
+            <tag> html </tag>
             
             <tag> json </tag>
             
@@ -154,13 +180,13 @@
             
             <tag> hexo </tag>
             
-            <tag> optimize </tag>
+            <tag> js </tag>
             
             <tag> html </tag>
             
-            <tag> css </tag>
+            <tag> optimize </tag>
             
-            <tag> js </tag>
+            <tag> css </tag>
             
             <tag> RWD </tag>
             
